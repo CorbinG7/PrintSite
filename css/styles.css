@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+body {
+    text-align: center;
+    background-image: url("../images/bg-image.png");
+    color: white;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.submit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-text {
+    font-family: 'Poppins', sans-serif;
+}
+
+.name-text {
+    display: inline-block;
+    margin-right: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.name-form {
+    display: inline-block;
+}
+
+.request-text {
+    display: inline-block;
+    margin-right: 9px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.request-form {
+    display: inline-block;
+}
+
+.button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    background-color: #C147E9;
+    width: 160px;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    transition-duration: 0.2s;
+    margin-top: 80px;
+}
+
+.button:hover, .button:focus, .button:active {
+    box-shadow: 0, 0, 20px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+}
+
+.not-button {
+    border-style: solid;
+    border-color: #810CA8;
+    border-width: 2px;
+    background-color: #810CA8;
+    width: 700px;
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+}
+
